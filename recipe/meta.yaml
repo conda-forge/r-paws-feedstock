@@ -1,4 +1,4 @@
-{% set version = '0.1.12' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws/paws_{{ version }}.tar.gz
-  sha256: 86334963d000111ca5938aa543205d2cc325c082a27cc5307706845c08f8c14e
+  sha256: 24dc7561da6f89b40c5f8d7d306dcbd6b171d112f93067d2b87a3199ed25955f
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -63,9 +63,7 @@ test:
 about:
   home: https://github.com/paws-r/paws
   license: Apache-2.0
-  summary: Interface to Amazon Web Services <https://aws.amazon.com>, including storage, database,
-    and compute services, such as 'Simple Storage Service' ('S3'), 'DynamoDB' 'NoSQL'
-    database, and 'Lambda' functions-as-a-service.
+  summary: Interface to Amazon Web Services <https://aws.amazon.com>, including storage, database, and compute services, such as 'Simple Storage Service' ('S3'), 'DynamoDB' 'NoSQL' database, and 'Lambda' functions-as-a-service.
   license_family: APACHE
   license_file: LICENSE.txt
 
