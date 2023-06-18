@@ -1,11 +1,11 @@
-About r-paws
-============
+About r-paws-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to Amazon Web Services <https://aws.amazon.com>, including storage, database, and compute services, such as 'Simple Storage Service' ('S3'), 'DynamoDB' 'NoSQL' database, and 'Lambda' functions-as-a-service.
 
