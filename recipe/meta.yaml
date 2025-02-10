@@ -24,34 +24,34 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-paws.analytics >=0.1.12
-    - r-paws.application.integration >=0.1.12
-    - r-paws.compute >=0.1.12
-    - r-paws.cost.management >=0.1.12
-    - r-paws.customer.engagement >=0.1.12
-    - r-paws.database >=0.1.12
-    - r-paws.developer.tools >=0.1.12
-    - r-paws.end.user.computing >=0.1.12
-    - r-paws.machine.learning >=0.1.12
-    - r-paws.management >=0.1.12
-    - r-paws.networking >=0.1.12
-    - r-paws.security.identity >=0.1.12
-    - r-paws.storage >=0.1.12
+    - r-paws.analytics >=0.8.0
+    - r-paws.application.integration >=0.8.0
+    - r-paws.compute >=0.8.0
+    - r-paws.cost.management >=0.8.0
+    - r-paws.customer.engagement >=0.8.0
+    - r-paws.database >=0.8.0
+    - r-paws.developer.tools >=0.8.0
+    - r-paws.end.user.computing >=0.8.0
+    - r-paws.machine.learning >=0.8.0
+    - r-paws.management >=0.8.0
+    - r-paws.networking >=0.8.0
+    - r-paws.security.identity >=0.8.0
+    - r-paws.storage >=0.8.0
   run:
     - r-base
-    - r-paws.analytics >=0.1.12
-    - r-paws.application.integration >=0.1.12
-    - r-paws.compute >=0.1.12
-    - r-paws.cost.management >=0.1.12
-    - r-paws.customer.engagement >=0.1.12
-    - r-paws.database >=0.1.12
-    - r-paws.developer.tools >=0.1.12
-    - r-paws.end.user.computing >=0.1.12
-    - r-paws.machine.learning >=0.1.12
-    - r-paws.management >=0.1.12
-    - r-paws.networking >=0.1.12
-    - r-paws.security.identity >=0.1.12
-    - r-paws.storage >=0.1.12
+    - r-paws.analytics >=0.8.0
+    - r-paws.application.integration >=0.8.0
+    - r-paws.compute >=0.8.0
+    - r-paws.cost.management >=0.8.0
+    - r-paws.customer.engagement >=0.8.0
+    - r-paws.database >=0.8.0
+    - r-paws.developer.tools >=0.8.0
+    - r-paws.end.user.computing >=0.8.0
+    - r-paws.machine.learning >=0.8.0
+    - r-paws.management >=0.8.0
+    - r-paws.networking >=0.8.0
+    - r-paws.security.identity >=0.8.0
+    - r-paws.storage >=0.8.0
 
 test:
   commands:
